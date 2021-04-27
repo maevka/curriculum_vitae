@@ -32,7 +32,7 @@ body {
     margin: 0 auto 0 auto;
 
     font-family: 'lato_regular', Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 10px;
+    font-size: 14px;
 }
 
 #left_side {
@@ -59,21 +59,18 @@ body {
  * components : .job_title, .name
  */
 
- #left_header {
-     line-height: 22px;
- }
  #left_header * {
      margin: 0 0 0 0;
  }
 
 .job_title {
-    font-size: 18px;
+    font-size: 29px;
     color: #757475;
     font-weight: 600;
 }
 
 .name {
-    font-size: 16px;
+    font-size: 25px;
     color: black;
     font-weight: normal;
 }
@@ -86,52 +83,67 @@ body {
     margin: 10px 0 0 0;
 
     font-family: 'lobster_regular', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 12px;
+    font-size: 18px;
     font-weight: 500;
     color: #E60026;
 }
 
-ul {
+/* ul {
     margin: 0;
     list-style-type: square;
-}
+} */
 
 .block_prez {
     margin: 10px 0 0 0;
 }
 
-/* block title */
+/* block title *
+ * components : .bt_main_title, .bt_sub_title {.bt_cie, .bt_location, .bt_date}
+ */
 
-.block_title h4 {
-    /*background-color: skyblue;*/
-    margin: 20px 0 0 0;
+.block_title {
+    line-height: 100%;
+    font-size: 14px;
+}
+
+.bt_main_title {
+    margin: 10px 0 0 0;
     color: black;
     font-weight: bold;
-    font-size: 9px;
 }
 
-.block_title h5 {
-    /*background-color: steelblue;*/
+.bt_sub_title {
+    margin: 5px 0 0 0;   
+}
+
+.bt_sub_title * {
+    margin: 0;
+    display: inline;
+    font-weight: normal;
+}
+
+.bt_cie {
     color: #E60026;
-    display: inline;
-    font-weight: normal;
-    font-size: 9px;
 }
 
-.block_title h6 {
-    /*background-color: turquoise;*/
+.bt_location {
     color: black;
-    display: inline;
-    font-weight: normal;
-    font-size: 9px;
-}
-
-.block_title p {
-    display: inline;
-    font-size: 9px;
 }
 
 /* descripton */
+
+.description {
+    margin: 0;
+    display: block;
+    list-style: inside;
+    list-style-type: square;
+    padding: 0;
+    line-height: 110%;
+    color: #666666;
+}
+.description li {
+    margin: 8px 0 0 0;
+}
 
 /* ABOUT ME */
 
@@ -149,38 +161,6 @@ ul {
 
 /****** BROUILLON ******/
 
-/*
-.block_title {
-    border: 2px turquoise solid;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    line-height: 8px;
-}
-
-.block_title h4 {
-    color: black;
-    font-weight: bold;
-    font-size: 7px;
-}
-
-.block_title h5 {
-    color: #E60026;
-    display: inline;
-    font-weight: normal;
-    font-size: 8px;
-}
-
-.block_title h6 {
-    color: black;
-    display: inline;
-    font-weight: normal;
-    font-size: 8px;
-}
-
-.block_title p {
-    display: inline;
-    font-size: 8px;
-}
-*/
 /*
 .description {
     margin: 0 0 0 0;
