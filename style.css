@@ -22,13 +22,10 @@
     font-style: normal;
 }
 
-<<<<<<< HEAD
 body {
     border: 2px black solid;
 }
 
-=======
->>>>>>> 3b62a07829ea8bf92f507de25a5b010a8c454d10
 /* BACKGROUND */
 
 #left_side, #right-side {
@@ -43,16 +40,9 @@ body {
     float: left;
     box-sizing: border-box;
 
-<<<<<<< HEAD
     padding: 30px;
     background-color: white;
     color: #444444;
-=======
-    padding: 50px;
-    background-color: white;
-    color: #444444;
-    
->>>>>>> 3b62a07829ea8bf92f507de25a5b010a8c454d10
 }
 
 #right_side {
@@ -65,7 +55,6 @@ body {
     color: #EEEEEE;
 }
 
-<<<<<<< HEAD
 /* LEFT HEADER
  * components : .job_title, .name
  */
@@ -141,16 +130,6 @@ ul {
     display: inline;
     font-size: 9px;
 }
-=======
-/* LEFT HEADER */
-
-
-/* BLOCK_PREZ : work_exp, projects, education 
- * components : block_title, description
- */
-
- /* block title */
->>>>>>> 3b62a07829ea8bf92f507de25a5b010a8c454d10
 
 /* descripton */
 
@@ -167,7 +146,6 @@ ul {
 .clear {
     clear: both;
 }
-<<<<<<< HEAD
 
 /****** BROUILLON ******/
 
@@ -242,5 +220,3 @@ ul {
 }*/
 
 /***********************/
-=======
->>>>>>> 3b62a07829ea8bf92f507de25a5b010a8c454d10
