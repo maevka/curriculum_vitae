@@ -9,3 +9,70 @@
     font-weight: normal;
     font-style: normal;
 }
+
+@font-face {
+    font-family: 'lato_regular';
+    src: url('fonts/lato-regular-webfont.eot');
+    src: url('fonts/lato-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/lato-regular-webfont.woff2') format('woff2'),
+         url('fonts/lato-regular-webfont.woff') format('woff'),
+         url('fonts/lato-regular-webfont.ttf') format('truetype'),
+         url('fonts/lato-regular-webfont.svg#latoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* BACKGROUND */
+
+#left_side, #right-side {
+    margin: 0 auto 0 auto;
+
+    font-family: 'lato_regular', Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
+}
+
+#left_side {
+    width: 60%;
+    float: left;
+    box-sizing: border-box;
+
+    padding: 50px;
+    background-color: white;
+    color: #444444;
+    
+}
+
+#right_side {
+    width: 40%;
+    float: right;
+    box-sizing: border-box;
+
+    padding: 25px;
+    background-color: #757475;
+    color: #EEEEEE;
+}
+
+/* LEFT HEADER */
+
+
+/* BLOCK_PREZ : work_exp, projects, education 
+ * components : block_title, description
+ */
+
+ /* block title */
+
+/* descripton */
+
+/* ABOUT ME */
+
+#profile_picture {
+    border-radius: 50%;
+    width: auto;
+    height: 250px;
+}
+
+/* SKILLS */
+
+.clear {
+    clear: both;
+}
