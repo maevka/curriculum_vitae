@@ -11,8 +11,10 @@
 
     <div id="left_side">
         <!-- Summary -->
-        <h2>Maëva GALLERON</h2>
-        <h1>Ingénieur Développement Logiciel</h1>
+        <div id="left_header">
+            <h2 class="element_margin">Maëva GALLERON</h2>
+            <h1 class="element_margin">Ingénieur Développement Logiciel</h1>
+        </div>
 
 
         <!-- Work experiences -->
@@ -24,16 +26,15 @@
                     <h4>Développement web (stage)</h4>
                     <h5>TECHNOBOZ</h5>
                     <h6>Antibes, France</h6>
-                    <p>mars 2021</p>
-                </div>
-                <p class="description">
-                    <ul>
-                        <li>Développemen de code JavaScript, HTML et CSS pour filtrer l'affichage des données (Angular)
-                        </li>
-                        <li>Proposition d'évolution du logiciel d'affichage et de suivi des commandes (KDS) pour la
-                            gestion des commandes à table</li>
-                    </ul>
-                </p>
+                    <p>/ mars 2021</p>
+                </div> <!-- #block_title -->
+
+                <ul class="description">
+                    <li>Développement de code JavaScript, HTML et CSS pour filtrer l'affichage des données (Angular)
+                    </li>
+                    <li>Proposition d'évolution du logiciel d'affichage et de suivi des commandes (KDS) pour la
+                        gestion des commandes à table</li>
+                </ul> <!-- #description -->
             </div>
 
             <!-- 2nd exp -->
@@ -42,20 +43,19 @@
                     <h4>Ingénieur d'Etudes et de Recherche</h4>
                     <h5>SOPHIA Engineering</h5>
                     <h6>Sophia Antipolis, France</h6>
-                    <p>octobre 2017 à novembre 2019</p>
-                </div>
-                <p class="description">
-                    <ul>
-                        <li>Développement IHM embarquée en C++ (Qt Creator) pour configurer un
-                            système et sauvegarder la configuration dans un fichier XML
-                        </li>
-                        <li>Debug et validation d'un lampadaire autonome mêlant machines d'états et
-                            temps réel en C (FreeRTOS, MPLAB X, IAR Visual State)
-                        </li>
-                        <li>Rédaction spécifications techniques
-                        </li>
-                    </ul>
-                </p>
+                    <p>/ octobre 2017 à novembre 2019</p>
+                </div> <!-- #block_title -->
+
+                <ul class="description">
+                    <li>Développement IHM embarquée en C++ (Qt Creator) pour configurer un
+                        système et sauvegarder la configuration dans un fichier XML
+                    </li>
+                    <li>Debug et validation d'un lampadaire autonome mêlant machines d'états et
+                        temps réel en C (FreeRTOS, MPLAB X, IAR Visual State)
+                    </li>
+                    <li>Rédaction spécifications techniques
+                    </li>
+                </ul> <!-- #description -->
             </div>
 
             <!-- 3rd exp -->
@@ -64,51 +64,51 @@
                     <h4>Ingénieur Développement Logiciel Embarqué (stage de fin d'études)</h4>
                     <h5>TE Connectivity</h5>
                     <h6>Toulouse, France</h6>
-                    <p>avril 2017 à septembre 2017</p>
-                </div>
-                <p class="description">
-                    <ul>
-                        <li>Implémentation de nouvelles fonctionnalités pour application mobile
-                            ndroid en Java Android (Android Studio)
-                        </li>
-                        <li>Développement logiciel embarqué d’un module intelligent
-                            sans fil multi-capteurs en C++ (IAR Embedded Workbench)
-                        </li>
-                        <li>Participation au développement d'un robot suiveur de ligne en Python
-                        </li>
-                    </ul>
-                </p>
+                    <p>/ avril 2017 à septembre 2017</p>
+                </div> <!-- #block_title -->
+
+                <ul class="description">
+                    <li>Implémentation de nouvelles fonctionnalités pour application mobile
+                        ndroid en Java Android (Android Studio)
+                    </li>
+                    <li>Développement logiciel embarqué d’un module intelligent
+                        sans fil multi-capteurs en C++ (IAR Embedded Workbench)
+                    </li>
+                    <li>Participation au développement d'un robot suiveur de ligne en Python
+                    </li>
+                </ul> <!-- #description -->
             </div>
-        </div>
+        </div> <!-- #work_exp -->
 
         <!-- Projects -->
         <div id="projects">
+            <h3>Projets</h3>
             <!-- 1st project -->
             <div id="first_project" class="block_prez">
                 <div class="block_title">
                     <h4>Stimulateur Epidural Transcutanné (projet de fin d'études)</h4>
                     <h5>Fondation GARCHES</h5>
                     <h6>Garches, France</h6>
-                </div>
-                <p class="description">
-                    <ul>
-                        <li>Réalisation d'une IHM pour configurer une séance en C++ (Qt Creator)
-                            pour tablette Android
-                        </li>
-                        <li>Simulation acquisitions en Temps Réel avec Xenomai
-                        </li>
-                        <li>Transmission de données via liaison UDP entre 2 BeagleBone Black
-                        </li>
-                        <li>Réalisation du schéma électrique et du PCB du système de sécurité du
-                            dispositif (Eagle)
-                        </li>
-                    </ul>
-                </p>
+                </div> <!-- #block_title -->
+                
+                <ul class="description">
+                    <li>Réalisation d'une IHM pour configurer une séance en C++ (Qt Creator)
+                        pour tablette Android
+                    </li>
+                    <li>Simulation acquisitions en Temps Réel avec Xenomai
+                    </li>
+                    <li>Transmission de données via liaison UDP entre 2 BeagleBone Black
+                    </li>
+                    <li>Réalisation du schéma électrique et du PCB du système de sécurité du
+                        dispositif (Eagle)
+                    </li>
+                </ul> <!-- #description -->
             </div>
-        </div>
+        </div> <!-- #projects -->
 
         <!-- Education -->
         <div id="education">
+            <h3>Formations</h3>
             <!-- 1st exp -->
             <div id="first_school" class="block_prez">
                 <div class="block_title">
@@ -116,7 +116,8 @@
                     <h5>ESME Sudria</h5>
                     <h6>Paris, France</h6>
                     <p>septembre 2012 à septembre 2017</p>
-                </div>
+                </div> <!-- #block_title -->
+
                 <p class="description">
                     Electronique et Systèmes Embarqués, Informatique, Réseaux et
                     Télécommunications, Energie et Mécatronique
@@ -130,7 +131,8 @@
                     <h5>Kyungpook National University</h5>
                     <h6>Daegu, Corée du Sud</h6>
                     <p>février 2015 à juin 2015</p>
-                </div>
+                </div> <!-- #block_title -->
+
                 <p class="description">
                     Java, Réseaux, Signaux et Systèmes, Coréen, Anglais.
                 </p>
@@ -143,20 +145,21 @@
                     <h5>Lycée Militaire de Saint-Cyr</h5>
                     <h6>Saint-Cyr-l'Ecole, France</h6>
                     <p>septembre 2010 à juin 2012</p>
-                </div>
+                </div> <!-- #block_title -->
             </div>
 
-        </div>
+        </div> <!-- #education -->
 
-    </div> <!-- left_side -->
+    </div> <!-- #left_side -->
 
     <div id="right_side">
 
         <div id="about_me">
             <!-- profile picture -->
-            <img src="./images/photoProfil.jpeg" alt="photo de profil">
+            <img id="profile_picture" src="./images/photoProfil.jpeg" alt="photo de profil">
+            
             <!-- contacts info -->
-            <div id="contacts">
+            <div id="contacts" class="block_list">
                 <ul>
                     <li>m.galleron@hotmail.com</li>
                     <li>06.77.85.75.71</li>
@@ -165,8 +168,8 @@
                     <li>Permis B</li>
                     <li>26 ans</li>
                 </ul>
-            </div>
-        </div>
+            </div> 
+        </div> <!-- #about_me -->
 
         <div id="skills">
             <!-- main skills -->
@@ -221,8 +224,10 @@
                     <li>Dessin, Couture</li>
                 </ul>
             </div>
-        </div> <!-- skills -->
-    </div> <!-- right_side -->
+        </div> <!-- #skills -->
+    </div> <!-- #right_side -->
+
+    <div class="clear"></div>
 </body>
 
 </html>
