@@ -24,17 +24,22 @@
 
 /* BACKGROUND */
 
-#left_side, #right-side {
-    margin: 0 auto 0 auto;
+.parent {
+    background-color: pink;
+    
+    display: flex;
+    margin: 0;
+    width: 940px;
+    height: 1320px;
+}
 
+.child {
     font-family: 'lato_regular', Verdana, Geneva, Tahoma, sans-serif;
     font-size: 14px;
 }
 
 #left_side {
     width: 60%;
-    float: left;
-    box-sizing: border-box;
 
     padding: 40px;
     background-color: white;
@@ -43,8 +48,6 @@
 
 #right_side {
     width: 40%;
-    float: right;
-    box-sizing: border-box;
 
     padding: 25px;
     background-color: #757475;
@@ -224,8 +227,3 @@ ul {
 }
 
 
-/* SKILLS */
-
-.clear {
-    clear: both;
-}
