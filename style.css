@@ -22,10 +22,6 @@
     font-style: normal;
 }
 
-body {
-    border: 2px black solid;
-}
-
 /* BACKGROUND */
 
 #left_side, #right-side {
@@ -40,9 +36,9 @@ body {
     float: left;
     box-sizing: border-box;
 
-    padding: 30px;
+    padding: 40px;
     background-color: white;
-    color: #444444;
+    color: #666666;
 }
 
 #right_side {
@@ -76,28 +72,38 @@ body {
 }
 
 /* .BLOCK_PREZ : #work_exp, #projects, #education 
- * components : .block_title, .description
+ * components : .block_exp, .block_title, .description
  */
 
- h3 {
-    margin: 10px 0 0 0;
+h3 {
+    margin: 0;
 
     font-family: 'lobster_regular', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 18px;
-    font-weight: 500;
+    font-weight: 500; 
+}
+
+ul {
+    display: block;
+    list-style: inside;
+    padding: 0;
+    line-height: 110%;
+}
+
+.block_prez {
+    margin: 18px 0 0 0;
+}
+
+.block_exp {
+    margin: 15px 0 25px 0;
+}
+
+.block_exp h3{
+    margin: 0 0 0 0;
     color: #E60026;
 }
 
-/* ul {
-    margin: 0;
-    list-style-type: square;
-} */
-
-.block_prez {
-    margin: 10px 0 0 0;
-}
-
-/* block title *
+/* block title 
  * components : .bt_main_title, .bt_sub_title {.bt_cie, .bt_location, .bt_date}
  */
 
@@ -117,13 +123,23 @@ body {
 }
 
 .bt_sub_title * {
-    margin: 0;
+    margin: 0;  
     display: inline;
     font-weight: normal;
 }
 
 .bt_cie {
     color: #E60026;
+}
+
+.bt_cie a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.bt_cie a:visited {
+    text-decoration: none;
+    color: #9F1720;
 }
 
 .bt_location {
@@ -133,70 +149,83 @@ body {
 /* descripton */
 
 .description {
-    margin: 0;
-    display: block;
-    list-style: inside;
+    margin: 8px 0 0 0;
     list-style-type: square;
-    padding: 0;
-    line-height: 110%;
     color: #666666;
 }
+
 .description li {
     margin: 8px 0 0 0;
 }
 
-/* ABOUT ME */
+/* RIGHT HEADER : #about_me, #skills
+ * components : #about_me, .block_list
+ */
+
+/* ABOUT_ME : #profile_picture, #contacts
+ */
 
 #profile_picture {
-    border-radius: 50%;
+    margin: 20px 40px 0 40px;
+
+    height: 224px;
     width: auto;
-    height: 250px;
+    border-radius: 50%;
 }
+
+#contacts {
+    margin: 30px 0 0 0;
+}
+
+#contacts ul {
+    margin: 0;
+    list-style-type: square;
+    font-size: 14px;
+}
+
+#contacts li {
+    margin: 10px 0 0 0;
+    line-height: 100%;
+}
+
+#contacts span {
+    position: relative;
+    left: 12px;
+}
+
+#contacts a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* block_list 
+ * components : h3, ul
+ */
+
+.block_list h3 {
+    margin: 25px 0 0 0;
+    color: #AAAAAA;
+}
+
+.block_list ul {
+    margin: 20px 0 0 0;
+    list-style-type: none;
+    font-size: 12px;
+}
+
+.block_list li {
+    line-height: 100%;
+    margin: 5px 0 0 0;
+}
+
+.block_list em {
+    font-style: normal;
+    font-weight: bold;
+}
+
 
 /* SKILLS */
 
 .clear {
     clear: both;
 }
-
-/****** BROUILLON ******/
-
-/*
-.description {
-    margin: 0 0 0 0;
-    background-color: teal;
-    color: #666666;
-}
-*/
-/*.block_prez ul {
-    margin: 5px 0 0 0;
-    padding-left: 12px;
-    line-height: 120%;
-    font-size: 9px;
-}
-
-.block_prez li {
-    margin: 4px 0 0 0;
-}*/
-
-/* block_list */
-/*
-.block_list {
-    color: #EEEEEE;
-}
-
-.block_list h3 {
-    color: #AAAAAA;
-}*/
-/*
-#profile_picture {
-    border-radius: 50%;
-    width: auto;
-    height: 250px;
-}
-*/
-/*#contacts {
-    padding-left: 25px;
-}*/
-
-/***********************/
