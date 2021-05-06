@@ -9,223 +9,191 @@
 
 <body>
 
-    <div class="parent">
-        <div id="left_side" class="child">
-            <!-- Summary -->
-            <div id="left_header">
-                <h2 class="name">Maëva GALLERON</h2>
-                <h1 class="job_title">Ingénieur Développement Logiciel</h1>
+    <div id="all">
+        <header id="main_header">
+            <figure>
+                <img id="profile_picture" src="./images/photoProfil.jpeg" alt="photo de profil">
+            </figure>
+
+            <div id="titles">
+                <h1 id="full_name">Maëva GALLERON</h1>
+                <h1 id="job_title">Ingénieur Développement Logiciel</h1>
             </div>
 
 
-            <!-- Work experiences -->
-            <div id="work_exp" class="block_exp">
-                <h3>Expériences professionnelles</h3>
-                <!-- 1st exp -->
-                <div id="first_exp" class="block_prez">
-                    <div class="block_title">
-                        <h4 class="bt_main_title">Développement web (stage)</h4>
-                        <div class="bt_sub_title">
-                            <h4 class="bt_cie">TECHNOBOZ</h4>
-                            <h4 class="bt_location">- Antibes, France</h4>
-                            <h4 class="bt_date">/ mars 2021</h4>
-                        </div>
-                    </div> <!-- #block_title -->
+            <ul id="contacts">
+                <li><span><a href="mailto:m.galleron@hotmail.com">m.galleron@hotmail.com</a></span></li>
+                <li><span>06.77.85.75.71</span></li>
+                <li><span><a href="https://github.com/maevka" target="_blank">https://github.com/maevka</a></span>
+                </li>
+                <li><span>ANTIBES (06)</span></li>
+                <li><span>Permis B</span></li>
+                <li><span>26 ans</span></li>
+            </ul>
 
-                    <ul class="description">
-                        <li>Développement de code JavaScript, HTML et CSS pour filtrer l'affichage des données (Angular)
-                        </li>
-                        <li>Proposition d'évolution du logiciel d'affichage et de suivi des commandes (KDS) pour la
-                            gestion des commandes à table</li>
-                    </ul> <!-- #description -->
-                </div>
+        </header>
 
-                <!-- 2nd exp -->
-                <div id="second_exp" class="block_prez">
-                    <div class="block_title">
-                        <h4 class="bt_main_title">Ingénieur d'Etudes et de Recherche</h4>
-                        <div class="bt_sub_title">
-                            <h4 class="bt_cie">SOPHIA Engineering</h4>
-                            <h4 class="bt_location">- Sophia Antipolis, France</h4>
-                            <h4 class="bt_date">/ octobre 2017 à novembre 2019</h4>
-                        </div>
-                    </div> <!-- #block_title -->
+        <div id="page">
+            <main id="left_side">
+                <section id="work_exp">
+                    <h2 class="main_title">Expériences professionnelles</h2>
 
-                    <ul class="description">
-                        <li>Développement IHM embarquée en C++ (Qt Creator) pour configurer un
-                            système et sauvegarder la configuration dans un fichier XML
-                        </li>
-                        <li>Debug et validation d'un lampadaire autonome mêlant machines d'états et
-                            temps réel en C (FreeRTOS, MPLAB X, IAR Visual State)
-                        </li>
-                        <li>Rédaction spécifications techniques
-                        </li>
-                    </ul> <!-- #description -->
-                </div>
+                    <section>
+                        <header>
+                            <h3 class="what">Développement web (stage)</h3>
+                            <h3 class="cie"><a href="https://www.linkedin.com/company/technoboz/" target="_blank">TECHNOBOZ</a></h3>
+                            <h3 class="location">- Antibes, France</h3>
+                            <h3 class="date">/ mars 2021</h3>
+                        </header>
 
-                <!-- 3rd exp -->
-                <div id="third_exp" class="block_prez">
-                    <div class="block_title">
-                        <h4 class="bt_main_title">Ingénieur Développement Logiciel Embarqué (stage de fin d'études)</h4>
-                        <div class="bt_sub_title">
-                            <h4 class="bt_cie">TE Connectivity</h4>
-                            <h4 class="bt_location">- Toulouse, France</h4>
-                            <h4 class="bt_date">/ avril 2017 à septembre 2017</h4>
-                        </div>
-                    </div> <!-- #block_title -->
+                        <ul class="description">
+                            <li>Développement de code JavaScript, HTML et CSS
+                                pour filtrer l'affichage des données (Angular)</li>
+                            <li>Proposition d'évolution de <a href="https://tickncook.com/fr/" target="_blank">Tick'N'Cook</a>, 
+                                logiciel d'affichage et de suivi des commandes (KDS) pour la gestion des commandes à table</li>
+                        </ul>
+                    </section>
 
-                    <ul class="description">
-                        <li>Implémentation de nouvelles fonctionnalités pour application mobile
-                            Android en Java Android (Android Studio)
-                        </li>
-                        <li>Développement logiciel embarqué d’un module intelligent
-                            sans fil multi-capteurs en C++ (IAR Embedded Workbench)
-                        </li>
-                        <li>Participation au développement d'un robot suiveur de ligne en Python
-                        </li>
-                    </ul> <!-- #description -->
-                </div>
-            </div> <!-- #work_exp -->
+                    <section>
+                        <header> 
+                            <h3 class="what">Ingénieur d'Etudes et de Recherche</h3>
+                            <h3 class="cie"><a href="https://www.sophiaengineering.com/" target="_blank">SOPHIA Engineering</a></h3>
+                            <h3 class="location">- Sophia Antipolis, France</h3>
+                            <h3 class="date">/ octobre 2017 à novembre 2019</h3>
+                        </header>
 
-            <!-- Projects -->
-            <div id="projects" class="block_exp">
-                <h3>Projets</h3>
-                <!-- 1st project -->
-                <div id="first_project" class="block_prez">
-                    <div class="block_title">
-                        <h4 class="bt_main_title">Stimulateur Epidural Transcutanné (projet de fin d'études)</h4>
-                        <div class="bt_sub_title">
-                            <h4 class="bt_cie">Fondation GARCHES</h4>
-                            <h4 class="bt_location">- Garches, France</h4>
-                        </div>
-                    </div> <!-- #block_title -->
+                        <ul class="description">
+                            <li>Développement IHM embarquée en C++ (Qt Creator)
+                                pour configurer un système et
+                                sauvegarder la configuration dans un fichier XML</li>
+                            <li>Debug et validation d'un lampadaire autonome
+                                mêlant machines d'états et temps réel en C (FreeRTOS, MPLAB X, IAR Visual State)</li>
+                            <li>Rédaction spécifications techniques</li>
+                        </ul>
+                    </section>
 
-                    <ul class="description">
-                        <li>Réalisation d'une IHM pour configurer une séance en C++ (Qt Creator)
-                            pour tablette Android
-                        </li>
-                        <li>Simulation acquisitions en Temps Réel avec Xenomai
-                        </li>
-                        <li>Transmission de données via liaison UDP entre 2 BeagleBone Black
-                        </li>
-                        <li>Réalisation du schéma électrique et du PCB du système de sécurité du
-                            dispositif (Eagle)
-                        </li>
-                    </ul> <!-- #description -->
-                </div>
-            </div> <!-- #projects -->
+                    <section>
+                        <header> 
+                            <h3 class="what">Ingénieur Développement Logiciel (stage de fin d'études)</h3>
+                            <h3 class="cie"><a href="https://www.te.com/global-en/home.html" target="_blank">TE Connectivity</a></h3>
+                            <h3 class="location">- Toulouse, France</h3>
+                            <h3 class="date">/ avril 2017 à septembre 2017</h3>
+                        </header>
 
-            <!-- Education -->
-            <div id="education" class="block_exp">
-                <h3>Formations</h3>
-                <!-- 1st exp -->
-                <div id="first_school" class="block_prez">
-                    <div class="block_title">
-                        <h4 class="bt_main_title">Diplôme d'Ingénieur Généraliste - option Systèmes Embarqués</h4>
-                        <div class="bt_sub_title">
-                            <h4 class="bt_cie bt_link"><a href="https://www.esme.fr/" target="_blank">ESME Sudria</a>
-                            </h4>
-                            <h4 class="bt_location">- Paris, France</h4>
-                            <h4 class="bt_date">/ septembre 2012 à septembre 2017</h4>
-                        </div>
-                    </div> <!-- #block_title -->
+                        <ul class="description">
+                            <li>Implémentation de nouvelles fonctionnalités
+                                pour application mobile Android en Java Android (Android Studio)</li>
+                            <li>Développement logiciel embarqué d’un module intelligent
+                                sans fil multi-capteurs en C++ (IAR Embedded Workbench)</li>
+                            <li>Participation au développement d'un robot suiveur de ligne en Python</li>
+                        </ul>
+                    </section>
+                </section> <!-- #work_exp -->
 
-                    <p class="description">
-                        Electronique et Systèmes Embarqués, Informatique, Réseaux et
-                        Télécommunications, Energie et Mécatronique
-                    </p>
-                </div>
+                <section id="projects">
+                    <h2 class="main_title">Projets</h2>
 
-                <!-- 2nd exp -->
-                <div id="second_school" class="block_prez">
-                    <div class="block_title">
-                        <h4 class="bt_main_title">Semestre International</h4>
-                        <div class="bt_sub_title">
-                            <h4 class="bt_cie bt_link"><a href="http://en.knu.ac.kr/main/main.htm"
-                                    target="_blank">Kyungpook
-                                    National University</a></h4>
-                            <h4 class="bt_location">- Daegu, Corée du Sud</h4>
-                            <h4 class="bt_date">/ février 2015 à juin 2015</h4>
-                        </div>
-                    </div> <!-- #block_title -->
+                    <section>
+                        <header>
+                            <h3 class="what">Stimulateur Epidural Transcutanné (projet de fin d'études)</h3>
+                            <h3 class="cie"><a href="https://www.handicap.org/" target="_blank">Fondation GARCHES</a>
+                            </h3>
+                            <h3 class="location">- Garches, France</h3>
+                        </header>
 
-                    <p class="description">
-                        Java, Réseaux, Signaux et Systèmes, Coréen, Anglais.
-                    </p>
-                </div>
+                        <ul class="description">
+                            <li>Réalisation d'une IHM pour configurer une séance
+                                via une tablette Android en C++ (Qt Creator) </li>
+                            <li>Simulation acquisitions en Temps Réel avec Xenomai</li>
+                            <li>Transmission de données via liaison UDP entre 2 BeagleBone Black</li>
+                            <li>Réalisation du schéma électrique et du PCB
+                                du système de sécurité du dispositif (Eagle)</li>
+                        </ul>
+                    </section>
+                </section> <!-- #projects -->
 
-                <!-- 3rd exp -->
-                <div id="third_school" class="block_prez">
-                    <div class="block_title">
-                        <h4 class="bt_main_title">Baccalauréat S - mention Bien</h4>
-                        <div class="bt_sub_title">
-                            <h4 class="bt_cie"><a href="https://rh-terre.defense.gouv.fr/formation/lyceesmilitaires"
-                                    target="_blank">Lycée Militaire de Saint-Cyr</a></h4>
-                            <h4 class="bt_location">- Saint-Cyr-l'Ecole, France</h4>
-                            <h4 class="bt_date">/ septembre 2010 à juin 2012</h4>
-                        </div>
-                    </div> <!-- #block_title -->
-                </div>
+                <section id="education">
+                    <h2 class="main_title">Formations</h2>
 
-            </div> <!-- #education -->
+                    <section>
+                        <header>
+                            <h3 class="what">Diplôme d'Ingénieur Pluridisciplinaire - option Systèmes Embarqués</h3>
+                            <h3 class="cie"><a href="https://www.esme.fr/" target="_blank">ESME Sudria</a></h3>
+                            <h3 class="location">- Paris, France</h3>
+                            <h3 class="date">/ septembre 2012 à septembre 2017</h3>
+                        </header>
 
-        </div> <!-- #left_side -->
+                        <p class="description">
+                            Electronique et Systèmes Embarqués, Informatique,
+                            Réseaux et Télécommunications, Energie et Mécatronique.
+                        </p>
+                    </section>
 
-        <div id="right_side" class="child">
+                    <section>
+                        <header>
+                            <h3 class="what">Semestre International</h3>
+                            <h3 class="cie"><a href="http://en.knu.ac.kr/main/main.htm" target="_blank">
+                                    Kyungpook National University</a></h3>
+                            <h3 class="location">- Daegu, Corée du Sud</h3>
+                            <h3 class="date">/ février 2015 à juin 2015</h3>
+                        </header>
 
-            <div id="about_me">
-                <!-- profile picture -->
-                <img id="profile_picture" src="./images/photoProfil.jpeg" alt="photo de profil">
+                        <p class="description">
+                            Java, Réseaux, Signaux et Systèmes, Coréen, Anglais.
+                        </p>
+                    </section>
 
-                <!-- contacts info -->
-                <div id="contacts" class="block_list">
-                    <ul>
-                        <li><span><a href="mailto:m.galleron@hotmail.com">m.galleron@hotmail.com</a></span> </li>
-                        <li><span>06.77.85.75.71</span> </li>
-                        <li><span><a href="https://github.com/maevka"
-                                    target="_blank">https://github.com/maevka</a></span>
-                        </li>
-                        <li><span>ANTIBES (06)</span> </li>
-                        <li><span>Permis B</span> </li>
-                        <li><span>26 ans</span> </li>
-                    </ul>
-                </div>
-            </div> <!-- #about_me -->
+                    <section>
+                        <header>
+                            <h3 class="what">Baccalauréat S - mention Bien</h3>
+                            <h3 class="cie"><a href="https://rh-terre.defense.gouv.fr/formation/lyceesmilitaires"
+                                    target="_blank">
+                                    Lycée Militaire de Saint-Cyr</a></h3>
+                            <h3 class="location">- Saint-Cyr-l'Ecole, France</h3>
+                            <h3 class="date">/ septembre 2010 à juin 2012</h3>
+                        </header>
 
-            <div id="skills">
-                <!-- main skills -->
-                <div id="main_skills" class="block_list">
-                    <h3>Compétences</h3>
+                        <p class="description">
+                            Option Sciences de la Vie et de la Terre
+                        </p>
+                    </section>
+                </section> <!-- #education -->
+            </main> <!-- #left_side -->
+
+            <section id="right_side">
+                <section id="main_skills">
+                    <h2>Compétences</h2>
+
                     <ul>
                         <li><em>C++ / Qt</em></li>
                         <li><em>C</em></li>
                         <li><em>Java Android</em></li>
                     </ul>
-                </div>
+                </section>
 
-                <!-- knowledge -->
-                <div id="knowledge" class="block_list">
-                    <h3>Connaissances</h3>
+                <section id="knowledge">
+                    <h2>Connaissances</h2>
+
                     <ul>
                         <li>Java</li>
                         <li>Python</li>
                         <li>HTML&CSS</li>
                     </ul>
-                </div>
+                </section>
 
-                <!-- languages -->
-                <div id="languages" class="block_list">
-                    <h3>Langues</h3>
+                <section id="languages">
+                    <h2>Langues</h2>
+
                     <ul>
                         <li><em>Anglais</em> (B2 - TOEIC 905)</li>
                         <li><em>Espagnol</em> (A2 - Niveau scolaire)</li>
                         <li><em>Coréen</em> (Notions)</li>
                     </ul>
-                </div>
+                </section>
 
-                <!-- soft skills -->
-                <div id="soft_skills" class="block_list">
-                    <h3>Soft Skills</h3>
+                <section id="soft_skills">
+                    <h2>Soft Skills</h2>
+
                     <ul>
                         <li>Créative</li>
                         <li>Sens de l'organisation</li>
@@ -234,21 +202,21 @@
                         <li>Esprit d'analyse</li>
                         <li>Capacité d'adaptation</li>
                     </ul>
-                </div>
+                </section>
 
-                <!-- interests -->
-                <div id="interests" class="block_list">
-                    <h3>Centres d'intérêt</h3>
+                <section id="hobbies">
+                    <h2>Centres d'intérêt</h2>
+
                     <ul>
-                        <li>Karaté, handball, Volley</li>
+                        <li>Karaté, Handball, Volley-ball</li>
                         <li>Chant, Guitare, Piano (autodidacte)</li>
-                        <li>Dessin, Couture</li>
+                        <li>Dessin, Calligraphie, Couture</li>
                     </ul>
-                </div>
-            </div> <!-- #skills -->
-        </div> <!-- #right_side -->
+                </section>
+            </section> <!-- #right_side -->
+        </div> <!-- #page -->
+    </div> <!-- #all -->
 
-    </div>
 </body>
 
 </html>
