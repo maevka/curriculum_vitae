@@ -24,13 +24,13 @@
 
 /* BACKGROUND */
 
-.parent {
-    background-color: pink;
-    
+.parent {    
     display: flex;
     margin: 0;
-    width: 940px;
-    height: 1320px;
+    min-width: 250px;
+    max-width: 940px;
+    max-height: 1320px;
+    margin: auto;
 }
 
 .child {
@@ -213,7 +213,6 @@ ul {
 .block_list ul {
     margin: 20px 0 0 0;
     list-style-type: none;
-    font-size: 12px;
 }
 
 .block_list li {
@@ -227,3 +226,38 @@ ul {
 }
 
 
+/* Smartphones */
+
+@media all and (max-device-width: 650px){
+.parent {
+    flex-direction: column;
+}
+
+#left_side {
+    width: auto;
+    padding: 5px;
+}
+
+#right_side {
+    width: auto;
+    padding: 20px;
+}
+
+.job_title, .name {
+    text-align: center;
+}
+
+#profile_picture {
+    margin: 20px 20px 0 20px;
+}
+}
+
+@media all and (max-device-width: 900px) {
+#left_side {
+    padding: 10px;
+}
+
+#profile_picture {
+    margin: 20px 30px 0 30px;
+}
+}
