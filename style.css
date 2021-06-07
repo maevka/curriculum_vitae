@@ -22,9 +22,226 @@
     font-style: normal;
 }
 
-/* BACKGROUND */
+/*** GLOBAL ***/
+#all {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: center;
 
+    font-family: 'lato_regular', Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h2 {
+    font-family: 'lobster_regular', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: normal;
+    font-size: 1.6em;
+}
+
+ul {
+    list-style: inside;
+    padding: 0;
+    list-style-type: square;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:visited {
+    text-decoration: none;
+    color: #9F1720;
+}
+
+/*** #MAIN_HEADER ***/
+#main_header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+
+    background-color: #757475;
+    border: 2px solid white;
+    color: #EEEEEE;
+}
+
+#profile_picture {
+    width: 224px;
+    border-radius: 50%;
+}
+
+#titles {
+    text-align: center;
+}
+
+#full_name {
+    color: black;
+    font-weight: normal;
+    margin-bottom: 0px;
+}
+
+#job_title {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+#contacts span {
+    position: relative;
+    left: 12px;
+}
+
+/*** #PAGE ***/
+#page {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+/*** #LEFT_SIDE ***/
+#left_side {
+    flex: 2;
+    min-width: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: baseline;
+    padding: 40px;
+
+    background-color: white;
+    color: #666666;
+}
+
+.main_title {
+    color : #E60026;
+}
+
+.what {
+    margin-bottom: 0px;
+    color: black;
+    font-weight: bold;
+}
+
+.cie, .location, .date {
+    display: inline;
+    margin: 0;
+    font-weight: normal;
+    font-size: 1.2em;
+}
+
+.cie {
+    color: #E60026;
+}
+
+.location {
+    color: black;
+}
+
+.date {
+    font-size: 1em;
+}
+
+.description {
+    margin-top: 8px;
+}
+
+.description a {
+    text-decoration: none;
+    font-weight: bold;
+    color: inherit;
+}
+
+.description a:visited {
+    text-decoration: none;
+    font-weight: bold;
+    color: #757475;
+}
+
+/*** #RIGHT_SIDE ***/
+#right_side {
+    flex: 1;
+    min-width: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 25px;
+
+    border-right: 2px solid white;
+    background-color: #757475;
+    color: #EEEEEE;
+}
+
+#right_side section {
+    width: 245px;
+}
+
+#right_side ul {
+    list-style-type: none;
+}
+
+#languages em {
+    font-style: normal;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<<<<<<< HEAD
 .parent {    
+=======
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* BACKGROUND */
+/*
+.parent {
+    background-color: pink;
+    
+>>>>>>> eebe568cb71528f9d4d37dd427fc10f86f84f025
     display: flex;
     margin: 0;
     min-width: 250px;
@@ -52,12 +269,12 @@
     padding: 25px;
     background-color: #757475;
     color: #EEEEEE;
-}
+}*/
 
 /* LEFT HEADER
  * components : .job_title, .name
  */
-
+/*
  #left_header * {
      margin: 0 0 0 0;
  }
@@ -72,12 +289,12 @@
     font-size: 25px;
     color: black;
     font-weight: normal;
-}
+}*/
 
 /* .BLOCK_PREZ : #work_exp, #projects, #education 
  * components : .block_exp, .block_title, .description
  */
-
+/*
 h3 {
     margin: 0;
 
@@ -104,11 +321,12 @@ ul {
 .block_exp h3{
     margin: 0 0 0 0;
     color: #E60026;
-}
+}*/
 
 /* block title 
  * components : .bt_main_title, .bt_sub_title {.bt_cie, .bt_location, .bt_date}
  */
+ /*
 
 .block_title {
     line-height: 100%;
@@ -148,9 +366,10 @@ ul {
 .bt_location {
     color: black;
 }
+*/
 
 /* descripton */
-
+/*
 .description {
     margin: 8px 0 0 0;
     list-style-type: square;
@@ -160,14 +379,14 @@ ul {
 .description li {
     margin: 8px 0 0 0;
 }
-
+*/
 /* RIGHT HEADER : #about_me, #skills
  * components : #about_me, .block_list
  */
 
 /* ABOUT_ME : #profile_picture, #contacts
  */
-
+/*
 #profile_picture {
     margin: 20px 40px 0 40px;
 
@@ -200,10 +419,12 @@ ul {
     text-decoration: none;
     color: inherit;
 }
+*/
 
 /* block_list 
  * components : h3, ul
  */
+ /*
 
 .block_list h3 {
     margin: 25px 0 0 0;
@@ -224,7 +445,7 @@ ul {
     font-style: normal;
     font-weight: bold;
 }
-
+*/
 
 /* Smartphones */
 
